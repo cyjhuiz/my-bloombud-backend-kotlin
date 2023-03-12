@@ -10,10 +10,10 @@ phases:
   build:
     commands:
       - echo Build started on `date`
-      - mvn -B package -DskipTests --file pom.xml
+      - mvn install
   post_build:
     commands:
       - echo Build completed on `date`
   artifacts:
     files:
-      - target/mybloombud-0.0.1-SNAPSHOT.jar
+      - target/*.jar

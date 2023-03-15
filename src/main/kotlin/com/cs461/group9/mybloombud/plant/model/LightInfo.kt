@@ -18,5 +18,5 @@ class LightInfo(
 
     }
 
-    var plantConstants: String = PlantConstants.LUX
+    var units: String = PlantConstants.LUX
 }

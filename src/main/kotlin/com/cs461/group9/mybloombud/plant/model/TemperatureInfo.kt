@@ -16,5 +16,5 @@ class TemperatureInfo(
 
     }
 
-    var plantConstants: String = PlantConstants.CELCIUS
+    var units: String = PlantConstants.CELCIUS
 }

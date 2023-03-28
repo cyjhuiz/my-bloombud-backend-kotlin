@@ -18,5 +18,5 @@ class HumidityInfo(
 
     }
 
-    var plantConstants: String = PlantConstants.PERCENT
+    var units: String = PlantConstants.PERCENT
 }

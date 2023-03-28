@@ -220,8 +220,12 @@ class DataSeeder(
                     // insert sunflower
                     var sunflower = Plant(
                         "Sunflower",
+<<<<<<< HEAD
                         "https://elasticbeanstalk-ap-southeast-2-518367695775.s3.ap-southeast-2.amazonaws.com/image/sunflower.jpg",
                         "https://elasticbeanstalk-ap-southeast-2-518367695775.s3.ap-southeast-2.amazonaws.com/ar-model/sunflower.jpg",
+=======
+                        "https://elasticbeanstalk-ap-southeast-2-518367695775.s3.ap-southeast-2.amazonaws.com/sunflower.jpg",
+>>>>>>> 11e71310aab3add3d3801be83c3bd47384c5cc6e
                         annualLifecycleInfo,
                         null,
                         null,

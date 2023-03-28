@@ -15,6 +15,7 @@
 	<description>MyBloomBud backend</description>
 	<properties>
 		<java.version>17</java.version>
+		<maven.compiler.release>17</maven.compiler.release>
 		<kotlin.version>1.7.22</kotlin.version>
 	</properties>
 	<dependencies>

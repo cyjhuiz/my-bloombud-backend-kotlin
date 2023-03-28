@@ -17,8 +17,4 @@ phases:
       - mv ./target/mybloombud-0.0.1-SNAPSHOT.jar mybloombud-0.0.1-SNAPSHOT.jar
 artifacts:
   files:
-<<<<<<< HEAD
-    - target/*.jar
-=======
     - mybloombud-0.0.1-SNAPSHOT.jar
->>>>>>> 11e71310aab3add3d3801be83c3bd47384c5cc6e

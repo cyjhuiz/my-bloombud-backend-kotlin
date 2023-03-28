@@ -10,6 +10,7 @@ import lombok.Setter
 class Plant(
     var name: String,
     var imageUrl: String,
+    var arModelUrl: String,
     @ManyToOne(fetch = FetchType.EAGER) @JoinColumn(name = "lifecycle_info_id") var lifecycleInfo: LifecycleInfo?,
     @OneToOne(fetch = FetchType.EAGER) @JoinColumn(name = "light_info_id") var lightInfo: LightInfo?,
     @OneToOne(fetch = FetchType.EAGER) @JoinColumn(name = "temperature_info_id") var temperatureInfo: TemperatureInfo?,
@@ -17,7 +18,7 @@ class Plant(
     @OneToOne(fetch = FetchType.EAGER) @JoinColumn(name = "water_info_id") var waterInfo: WaterInfo?,
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY) var plantId: Int? = null
 ) {
-    constructor() : this("", "", null, null, null, null, null, null) {
+    constructor() : this("", "", "",null, null, null, null, null, null) {
 
     }
 }

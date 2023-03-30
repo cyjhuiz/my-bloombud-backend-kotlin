@@ -173,8 +173,8 @@ class DataSeeder(
                     // insert daisy
                     var daisy = Plant(
                         "Daisy",
-                        "Each flower has a rosette of small, thin white petals surrounding a bright yellow centre. ",
-                        "It is a common wild flower found growing in our garden lawns",
+                        "Each flower has a rosette of small, thin white petals surrounding a bright yellow centre.",
+                        "It is a common wild flower found growing in our garden lawns.",
                         "https://elasticbeanstalk-ap-southeast-2-518367695775.s3.ap-southeast-2.amazonaws.com/image/dandelion.jpg",
                         "https://elasticbeanstalk-ap-southeast-2-518367695775.s3.ap-southeast-2.amazonaws.com/ar-model/dandelion.sfb",
                         perennialLifecycleInfo,
@@ -281,7 +281,7 @@ class DataSeeder(
                     var tulip = Plant(
                         "Tulip",
                         "A tulip plant has two or three thick, bluish green leaves. These are attached at the bottom of the stem. In most types of tulip each stem grows a single flower.",
-                        "Plants that bloom in early spring. The flowers are cup-shaped and very colorful. ",
+                        "Plants that bloom in early spring. The flowers are cup-shaped and very colorful.",
                         "https://elasticbeanstalk-ap-southeast-2-518367695775.s3.ap-southeast-2.amazonaws.com/image/tulip.jpg",
                         "https://elasticbeanstalk-ap-southeast-2-518367695775.s3.ap-southeast-2.amazonaws.com/ar-model/tulip.sfb",
                         perennialLifecycleInfo,

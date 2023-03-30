@@ -14,9 +14,7 @@ class PlantServiceImpl(
 ): PlantService {
     override fun getPlants(name: String?): ArrayList<PlantView> {
         val plants: ArrayList<PlantView>
-        System.out.println(name)
         if (name == null) {
-            System.out.println("1")
             plants = plantRepository.findAllByOrderByNameAsc()
         } else {
             plants = plantRepository.findAllByNameContainingIgnoreCaseOrderByNameAsc(name)

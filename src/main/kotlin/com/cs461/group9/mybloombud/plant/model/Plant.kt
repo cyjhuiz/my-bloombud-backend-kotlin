@@ -9,6 +9,8 @@ import lombok.Setter
 @Setter
 class Plant(
     var name: String,
+    var description: String,
+    var supportingText: String,
     var imageUrl: String,
     var arModelUrl: String,
     @ManyToOne(fetch = FetchType.EAGER) @JoinColumn(name = "lifecycle_info_id") var lifecycleInfo: LifecycleInfo?,
@@ -18,7 +20,7 @@ class Plant(
     @OneToOne(fetch = FetchType.EAGER) @JoinColumn(name = "water_info_id") var waterInfo: WaterInfo?,
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY) var plantId: Int? = null
 ) {
-    constructor() : this("", "", "",null, null, null, null, null, null) {
+    constructor() : this("", "", "", "", "",null, null, null, null, null, null) {
 
     }
 }

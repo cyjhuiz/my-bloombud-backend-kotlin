@@ -66,6 +66,8 @@ class DataSeeder(
                     // insert rose
                     var rose = Plant(
                         "Rose",
+                        "description",
+                        "supportingText",
                         "https://elasticbeanstalk-ap-southeast-2-518367695775.s3.ap-southeast-2.amazonaws.com/image/rose.jpg",
                         "https://elasticbeanstalk-ap-southeast-2-518367695775.s3.ap-southeast-2.amazonaws.com/ar-model/redrose.sfb",
                         perennialLifecycleInfo,
@@ -117,6 +119,8 @@ class DataSeeder(
                     // insert dandelion
                     var dandelion = Plant(
                         "Dandelion",
+                        "description",
+                        "supportingText",
                         "https://elasticbeanstalk-ap-southeast-2-518367695775.s3.ap-southeast-2.amazonaws.com/image/dandelion.jpg",
                         "https://elasticbeanstalk-ap-southeast-2-518367695775.s3.ap-southeast-2.amazonaws.com/ar-model/dandelion.sfb",
                         perennialLifecycleInfo,
@@ -169,6 +173,8 @@ class DataSeeder(
                     // insert daisy
                     var daisy = Plant(
                         "Daisy",
+                        "description",
+                        "supportingText",
                         "https://elasticbeanstalk-ap-southeast-2-518367695775.s3.ap-southeast-2.amazonaws.com/image/dandelion.jpg",
                         "https://elasticbeanstalk-ap-southeast-2-518367695775.s3.ap-southeast-2.amazonaws.com/ar-model/dandelion.sfb",
                         perennialLifecycleInfo,
@@ -220,6 +226,8 @@ class DataSeeder(
                     // insert sunflower
                     var sunflower = Plant(
                         "Sunflower",
+                        "description",
+                        "supportingText",
                         "https://elasticbeanstalk-ap-southeast-2-518367695775.s3.ap-southeast-2.amazonaws.com/image/sunflower.jpg",
                         "https://elasticbeanstalk-ap-southeast-2-518367695775.s3.ap-southeast-2.amazonaws.com/ar-model/sunflower.jpg",
                         annualLifecycleInfo,
@@ -272,6 +280,8 @@ class DataSeeder(
                     // insert tulip
                     var tulip = Plant(
                         "Tulip",
+                        "description",
+                        "supportingText",
                         "https://elasticbeanstalk-ap-southeast-2-518367695775.s3.ap-southeast-2.amazonaws.com/image/tulip.jpg",
                         "https://elasticbeanstalk-ap-southeast-2-518367695775.s3.ap-southeast-2.amazonaws.com/ar-model/tulip.sfb",
                         perennialLifecycleInfo,

@@ -66,8 +66,8 @@ class DataSeeder(
                     // insert rose
                     var rose = Plant(
                         "Rose",
-                        "description",
-                        "supportingText",
+                        "Their stems are usually prickly and their glossy, green leaves have toothed edges.",
+                        "Many roses are fragrant, and some produce berry-like fruits called hips.",
                         "https://elasticbeanstalk-ap-southeast-2-518367695775.s3.ap-southeast-2.amazonaws.com/image/rose.jpg",
                         "https://elasticbeanstalk-ap-southeast-2-518367695775.s3.ap-southeast-2.amazonaws.com/ar-model/redrose.sfb",
                         perennialLifecycleInfo,
@@ -119,8 +119,8 @@ class DataSeeder(
                     // insert dandelion
                     var dandelion = Plant(
                         "Dandelion",
-                        "description",
-                        "supportingText",
+                        "Bright yellow discs of tightly packed florets above a rosette of jaggedly toothed leaves are followed by fluffy white seed heads.",
+                        "The name is derived from it's jaggedly toothed leaves were thought to resemble the teeth in a lion’s jaw.",
                         "https://elasticbeanstalk-ap-southeast-2-518367695775.s3.ap-southeast-2.amazonaws.com/image/dandelion.jpg",
                         "https://elasticbeanstalk-ap-southeast-2-518367695775.s3.ap-southeast-2.amazonaws.com/ar-model/dandelion.sfb",
                         perennialLifecycleInfo,
@@ -173,8 +173,8 @@ class DataSeeder(
                     // insert daisy
                     var daisy = Plant(
                         "Daisy",
-                        "description",
-                        "supportingText",
+                        "Each flower has a rosette of small, thin white petals surrounding a bright yellow centre. ",
+                        "It is a common wild flower found growing in our garden lawns",
                         "https://elasticbeanstalk-ap-southeast-2-518367695775.s3.ap-southeast-2.amazonaws.com/image/dandelion.jpg",
                         "https://elasticbeanstalk-ap-southeast-2-518367695775.s3.ap-southeast-2.amazonaws.com/ar-model/dandelion.sfb",
                         perennialLifecycleInfo,
@@ -226,8 +226,8 @@ class DataSeeder(
                     // insert sunflower
                     var sunflower = Plant(
                         "Sunflower",
-                        "description",
-                        "supportingText",
+                        "Each flower has a green erect stem covered in coarse hairs, growing on average around 2m tall.",
+                        "Many roses are fragrant, and some produce berry-like fruits called hips.",
                         "https://elasticbeanstalk-ap-southeast-2-518367695775.s3.ap-southeast-2.amazonaws.com/image/sunflower.jpg",
                         "https://elasticbeanstalk-ap-southeast-2-518367695775.s3.ap-southeast-2.amazonaws.com/ar-model/sunflower.jpg",
                         annualLifecycleInfo,
@@ -280,8 +280,8 @@ class DataSeeder(
                     // insert tulip
                     var tulip = Plant(
                         "Tulip",
-                        "description",
-                        "supportingText",
+                        "A tulip plant has two or three thick, bluish green leaves. These are attached at the bottom of the stem. In most types of tulip each stem grows a single flower.",
+                        "Plants that bloom in early spring. The flowers are cup-shaped and very colorful. ",
                         "https://elasticbeanstalk-ap-southeast-2-518367695775.s3.ap-southeast-2.amazonaws.com/image/tulip.jpg",
                         "https://elasticbeanstalk-ap-southeast-2-518367695775.s3.ap-southeast-2.amazonaws.com/ar-model/tulip.sfb",
                         perennialLifecycleInfo,

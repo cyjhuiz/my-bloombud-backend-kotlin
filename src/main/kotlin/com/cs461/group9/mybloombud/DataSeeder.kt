@@ -205,7 +205,7 @@ class DataSeeder(
 
                     var daisyHumidityInfo = HumidityInfo(
                         "Normal humidity need",
-                        0,
+                        2,
                         60.0,
                         65.0,
                         daisy

@@ -1,5 +1,4 @@
 import serial
-#import requests
 import urllib.request
 import time
 
@@ -12,10 +11,6 @@ isWaiting = False
 humidityValue = None
 lightValue = None
 tempValue = None
-
-# while True:
-#     data1 = str(ser.readline())
-#     print(data1)
 
 def clearValues():
     isWaiting = True
